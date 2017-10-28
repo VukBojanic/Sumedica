@@ -1,0 +1,28 @@
+#header {
+  height: 750px;
+  background-image: url("../img/1.jpg");
+  width: auto;
+  background-size: cover;
+  background-position: bottom bottom;
+}
+@media screen and (max-width: 1200px) {
+  #header {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #header {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 520px) {
+  #header {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #header {
+    height: 250px;
+  }
+}
+
